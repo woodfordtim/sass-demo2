@@ -1,0 +1,7 @@
+@function pxToEm ($value, $base) {
+    @return ($value / $base) + em;
+}
+
+h1 {
+    font-size: pxToEm(32, 16);
+}
